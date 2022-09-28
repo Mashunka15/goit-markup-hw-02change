@@ -19,6 +19,9 @@ ul p{
 }
 .webstudio-header .header-logo a{
     font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
 }
 .webstudio-header{
     color: #212121;
@@ -34,11 +37,20 @@ ul p{
     letter-spacing: 0.02em;
     list-style: none;
 }
-.webstudio-blue a:hover{
+.webstudio-header a:hover{
     color: #2196F3;
+}
+.webstudio-header a:focus{
+outline: #188ce8;
 }
 .webstudio-grey a{
     color: #757575;
+}
+.webstudio-lightblue a{
+    color: #757575;
+}
+.webstudio-lightblue a:hover{
+    color: #2196F3;
 }
 .start-section{
     background-color: #2f303a;
@@ -89,7 +101,7 @@ ul p{
     letter-spacing: 0.03em;
     list-style: none;
 }
-.studio-sectionmain a{
+.studio-sectionmain h3{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -148,6 +160,9 @@ ul p{
 .webstudio-footer .footer-adress a{
     color: #ffff;
 }
-.webstudio-footer .footer logo a{
-    font-family: "Raleway",sans-serif;;
+.webstudio-footer .footer-logo a{
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
 }
