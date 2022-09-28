@@ -1,4 +1,4 @@
-.body{
+body{
     font-family: Roboto, sans-serif;
     color: #212121;
     letter-spacing: 0.03em;
@@ -17,7 +17,7 @@ ul p{
     font-size: 16px;
     line-height: 30px;
 }
-.logo{
+.webstudio-header .header-logo a{
     font-family: "Raleway",sans-serif;
 }
 .webstudio-header{
@@ -32,6 +32,7 @@ ul p{
     line-height: 16px;
     color: #212121;
     letter-spacing: 0.02em;
+    list-style: none;
 }
 .webstudio-blue a:hover{
     color: #2196F3;
@@ -67,6 +68,7 @@ ul p{
     line-height: 26px;
     color: #212121;
     font-family: Roboto, sans-serif;
+    list-style: none;
 }
 .button-hover button:hover{
     color: #ffff;
@@ -77,6 +79,7 @@ ul p{
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
+    list-style: none;
 }
 .section-main ul p{
     color: #757575;
@@ -84,21 +87,25 @@ ul p{
     line-height: 30px; 
     font-weight: 400;
     letter-spacing: 0.03em;
+    list-style: none;
 }
 .studio-sectionmain a{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
+    list-style: none;
 }
 .studio-sectionmain p{
     font-size: 14px;
     line-height: 24px;
     color: #757575;
+    list-style: none;
 }
 .section-topics h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
+    list-style: none;
 }
 .section-team{
     background-color: #f5f4fa;
@@ -107,21 +114,25 @@ ul p{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
+    list-style: none;
 }
 .section-team h3{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    list-style: none;
 }
 .section-team p{
     font-size: 16px;
     line-height: 19px;
     color: #757575;
+    list-style: none;
 }
 .webstudio-footer a{
     font-size: 14px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
+    list-style: none;
 }
 .webstudio-footer a:hover{
     color: rgba(255, 255, 255, 1);
@@ -129,6 +140,7 @@ ul p{
 .webstudio-footer{
     background-color: #2f303a;
     color: #757575;
+    list-style: none;
 }
 .webstudio-footer span{
     color: #2196F3;
