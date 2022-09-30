@@ -21,22 +21,29 @@ ul p{
 ul li{
     list-style: none;
 }
-.webstudio-header .header-logo a{
+.header-logo, .footer-logo {
+    color: #2196F3; 
     font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: red;
+    }
+.webstudio-footer span{
+    color: #ffff;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.header-logo span{
+    color: #212121;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
 }
 .webstudio-header{
     color: #212121;
-}
-.webstudio-header span{
-    color: #2196F3;
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
 }
 .webstudio-header a{
     font-weight: 500;
@@ -161,19 +168,6 @@ border-radius: 4px;
     background-color: #2f303a;
     color: #757575;
 }
-.webstudio-footer span{
-    color: #2196F3;
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-}
 .webstudio-footer .footer-adress a{
     color: #ffff;
-}
-.webstudio-footer .footer-logo a{
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
 }
