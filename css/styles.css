@@ -30,42 +30,34 @@ ul li{
     }
 .webstudio-footer span{
     color: #ffff;
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
 }
 .header-logo span{
     color: #212121;
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
 }
 .webstudio-header{
     color: #212121;
 }
-.webstudio-header a{
+.nav-link a{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #212121;
     letter-spacing: 0.02em;
 }
-.webstudio-header a:hover{
+.nav-link a:hover{
     color: #2196F3;
 }
-.webstudio-header a:focus{
+.nav-link a:focus{
 outline: #188ce8;
 }
-.webstudio-grey a{
+.nav-linkgrey a{
     color: #757575;
 }
-.webstudio-lightblue a{
-    color: #757575;
-}
-.webstudio-lightblue a:hover{
+.nav-linkgrey a:hover{
     color: #2196F3;
+}
+.nav-linkgrey a:focus{
+    outline: #188ce8;
 }
 .start-section{
     background-color: #2f303a;
@@ -156,18 +148,16 @@ border-radius: 4px;
     line-height: 19px;
     color: #757575;
 }
-.webstudio-footer a{
+.contact-link a{
     font-size: 14px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
+    color: #757575;
 }
-.webstudio-footer a:hover{
+.contact-link a:hover{
     color: rgba(255, 255, 255, 1);
 }
 .webstudio-footer{
     background-color: #2f303a;
-    color: #757575;
 }
-.webstudio-footer .footer-adress a{
-    color: #ffff;
-}
+
